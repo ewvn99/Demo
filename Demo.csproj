@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <SupportedOSPlatformVersion>8.0</SupportedOSPlatformVersion>
+    <Platforms>x64</Platforms>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="x64\**" />
+    <EmbeddedResource Remove="x64\**" />
+    <None Remove="x64\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Res\Key.png" />
+    <None Remove="Res\Table.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Res\Airplane.mdl" />
+    <EmbeddedResource Include="Res\Ani.gif" />
+    <EmbeddedResource Include="Res\Ani.tiff" />
+    <EmbeddedResource Include="Res\Arrow.png" />
+    <EmbeddedResource Include="Res\Cfg.png" />
+    <EmbeddedResource Include="Res\Cube.dds" />
+    <EmbeddedResource Include="Res\Cube.png" />
+    <EmbeddedResource Include="Res\Digital.ttf" />
+    <EmbeddedResource Include="Res\DisplMap.png" />
+    <EmbeddedResource Include="Res\Face.png" />
+    <EmbeddedResource Include="Res\Fire.dds" />
+    <EmbeddedResource Include="Res\Hit.wav" />
+    <EmbeddedResource Include="Res\Key.png" />
+    <EmbeddedResource Include="Res\Man.mdl" />
+    <EmbeddedResource Include="Res\Music.mp3" />
+    <EmbeddedResource Include="Res\Photo.jpg" />
+    <EmbeddedResource Include="Res\PSGeom.cso" />
+    <EmbeddedResource Include="Res\Rain.dds" />
+    <EmbeddedResource Include="Res\Smile.png" />
+    <EmbeddedResource Include="Res\Sphere.mdl" />
+    <EmbeddedResource Include="Res\Table.png" />
+    <EmbeddedResource Include="Res\Teapot.mdl" />
+    <EmbeddedResource Include="Res\Terrain.bin" />
+    <EmbeddedResource Include="Res\Terrain.dds" />
+    <EmbeddedResource Include="Res\TerrainBlend.dds" />
+    <EmbeddedResource Include="Res\Tool.png" />
+    <EmbeddedResource Include="Res\Tree1.dds" />
+    <EmbeddedResource Include="Res\Tree2.dds" />
+    <EmbeddedResource Include="Res\Tv.mdl" />
+    <EmbeddedResource Include="Res\Wall.mdl" />
+    <EmbeddedResource Include="Res\Water.mdl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wew.csproj" />
+  </ItemGroup>
+
+
+</Project>

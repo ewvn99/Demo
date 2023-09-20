@@ -1,0 +1,10 @@
+Visual Studio 2022
+Microsoft SDKs
+.NET source code
+DirectXTex: go.microsoft.com/fwlink/?LinkId=248926
+DirectXTK: go.microsoft.com/fwlink/?LinkId=248929
+RasterTek: www.rastertek.com
+Frank Luna: www.d3dcoder.net
+Audio/video codecs from FFmpeg: ffmpeg.org
+Emil Persson (Humus): www.humus.name
+Music file: archive.org/details/Back_To_The_Sea-8076; Adam & Alma - Smile for me sun
