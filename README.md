@@ -12,3 +12,5 @@
  	<li>Designers.</li>
  	<li>Audio / video.</li>
 </ul>
+
+<img width="1366" height="708" alt="image" src="https://github.com/user-attachments/assets/9e3b1ada-7475-4e48-af8a-0c8d20f57707" />
